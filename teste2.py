@@ -1,4 +1,4 @@
-import Streamlit as stt 
+import Streamlit as st 
 import pandas as pd 
 
 st.title('teste ECMI 2')
