@@ -18,6 +18,8 @@ chart_data = pd.DataFrame(
 np.random.randn(20, 3),
 columns = ['a', 'b','c'])
 
+#grafico de linha
 st.line_chart(chart_data)
 
+#grafico de barras
 st.bar_chart(chart_data)
