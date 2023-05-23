@@ -11,7 +11,7 @@ dataframe = pd.DataFrame({
 })
 dataframe.style.highlight_max(axis=0)
 
-si.write(dataframe)
+st.write(dataframe)
 
 chart_data = pd.DataFrame(
 np.random.randn(20, 3),
