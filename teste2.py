@@ -3,10 +3,10 @@ import pandas as pd
 
 st.title('teste ECMI 2')
 
-st.write('tabela')
+st.write("tabela")
 
 dataframe = pd.DataFrame({
-'nome' : ['churrin' , 'ch' , 'bruno'],
+'Nome' : ['churrin' , 'ch' , 'bruno'],
 'salário': [100, 200, 300]
 })
 dataframe.style.highlight_max(axis=0)
